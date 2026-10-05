@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef2f7;
+    color: #1f2937;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #64748b;
+}
+
+#contenedor-deportes {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+article {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.encabezado h2 {
+    font-size: 25px;
+}
+
+.encabezado span {
+    background: #e2e8f0;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.info p {
+    margin: 9px 0;
+    line-height: 1.4;
+}
+
+.info h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-position: inside;
+    line-height: 1.8;
+}
+
+#mensaje {
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media (max-width: 900px) {
+    #contenedor-deportes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 18px;
+    }
+
+    #contenedor-deportes {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fútbol",
+    "escenario": "Cancha de fútbol",
+    "dimensiones": "90-120 m de largo x 45-90 m de ancho",
+    "numero_elementos": 11,
+    "equipo": {
+      "short": true,
+      "playera": true,
+      "tacos": true,
+      "medias": true
+    },
+    "pais": "Inglaterra"
+  },
+  {
+    "id": 2,
+    "nombre": "Baloncesto",
+    "escenario": "Cancha de baloncesto",
+    "dimensiones": "28 m de largo x 15 m de ancho",
+    "numero_elementos": 5,
+    "equipo": {
+      "short": true,
+      "playera": true,
+      "tacos": false,
+      "medias": true
+    },
+    "pais": "Estados Unidos"
+  },
+  {
+    "id": 3,
+    "nombre": "Voleibol",
+    "escenario": "Cancha de voleibol",
+    "dimensiones": "18 m de largo x 9 m de ancho",
+    "numero_elementos": 6,
+    "equipo": {
+      "short": true,
+      "playera": true,
+      "tacos": false,
+      "medias": true
+    },
+    "pais": "Estados Unidos"
+  },
+  {
+    "id": 4,
+    "nombre": "Béisbol",
+    "escenario": "Campo de béisbol",
+    "dimensiones": "Las dimensiones varían según el estadio",
+    "numero_elementos": 9,
+    "equipo": {
+      "short": true,
+      "playera": true,
+      "tacos": true,
+      "medias": true
+    },
+    "pais": "Estados Unidos"
+  },
+  {
+    "id": 5,
+    "nombre": "Tenis",
+    "escenario": "Cancha de tenis",
+    "dimensiones": "23.77 m de largo x 8.23 m de ancho (individual)",
+    "numero_elementos": 1,
+    "equipo": {
+      "short": true,
+      "playera": true,
+      "tacos": false,
+      "medias": true
+    },
+    "pais": "Reino Unido"
+  },
+  {
+    "id": 6,
+    "nombre": "Hockey sobre hielo",
+    "escenario": "Pista de hielo",
+    "dimensiones": "Aproximadamente 60 m de largo x 30 m de ancho",
+    "numero_elementos": 6,
+    "equipo": {
+      "short": true,
+      "playera": true,
+      "tacos": false,
+      "medias": true
+    },
+    "pais": "Canadá"
+  }
+]
